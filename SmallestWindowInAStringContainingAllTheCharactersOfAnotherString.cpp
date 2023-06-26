@@ -71,8 +71,8 @@ string smallestWindow (string s, string p)
                 while(count==0){
                     if(j-i+1<res){
                         res=j-i+1;
-                        cout<<i<<" "<<j<<endl;
-                        cout<<res<<endl;
+                        // cout<<i<<" "<<j<<endl;
+                        // cout<<res<<endl;
                         start=i;
                     }
                     if(mp.count(s[i])>0){
